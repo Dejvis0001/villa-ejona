@@ -167,7 +167,10 @@ header .navbar .link-btn {
     clip-path: polygon(100% 0, 100% 50%, 100% 100%, 11% 100%, 22% 51%, 11% 0);
     height: 600px;
 }
-.carousel-control-next, .carousel-control-prev{display: none;}
+.carousel-control-next,
+.carousel-control-prev {
+    display: none;
+}
 /*Index-About*/
 .about-section {
     position: relative;
@@ -232,8 +235,11 @@ header .navbar .link-btn {
 .img33 {
     height: 500px;
 }
+.prt40{text-align: center;font-size: 40px;}
 /*Index-Rooms*/
-.store-item {border: 2px solid black;}
+.store-item {
+    border: 2px solid black;
+}
 /*Index-Gallery*/
 .container1 {
     display: flex;
@@ -247,7 +253,7 @@ header .navbar .link-btn {
 }
 .gallery-img {
     height: 400px;
-    width: 400px !important;
+    width: 600px !important;
 }
 .gallery0>img {
     grid-area: 1/1;
@@ -331,33 +337,33 @@ header .navbar .link-btn {
 .Icons {
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-  .Icons .Icons8 {
+}
+.Icons .Icons8 {
     background-color: #104c95;
     margin: auto !important;
     width: 100px;
     height: 100px;
     border-radius: 50%;
-  }
-  .Icons8 .fas {
+}
+.Icons8 .fas {
     font-size: 40px;
     color: white;
     margin-top: 30%;
-  margin-left: 30%;
-  }
-  .Icons:hover h6 {
+    margin-left: 30%;
+}
+.Icons:hover h6 {
     color: #285E5F;
-  }
-  .Icons h6 {
+}
+.Icons h6 {
     color: #3D3C3C;
     font-size: 20px;
     font-weight: 600;
     margin-top: 15px;
     text-align: center;
-  }
-  .Icons p {
+}
+.Icons p {
     padding: 10px 10px 10px 10px;
-  }
+}
 /*Index-Testimonials*/
 .testimonials {
     background: url(assets/image/4.jpg)rgba(54, 50, 50, 0.625);
@@ -498,12 +504,13 @@ header .navbar .link-btn {
 }
 .room-list-item .room-info .room-title a {
     color: #d7d8d9;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 500;
     position: relative;
     z-index: 9;
     text-transform: uppercase;
 }
+.room-list-item div.row div.col-lg-6 div.room-info p{font-size: 21px;}
 .room-list-item .room-info .room-rates {
     margin-bottom: 5px;
     text-transform: uppercase;
@@ -539,12 +546,11 @@ header .navbar .link-btn {
     text-transform: uppercase;
 }
 .room-list-item .room-services {
-    margin-top: 38px;
+    margin-top: 40px;
 }
 .room-list-item .room-services i {
     width: 30px;
     height: 30px;
-    border: 1px solid #e3e3e3;
     margin-right: 5px;
     margin-bottom: 10px;
     text-align: center;
@@ -566,10 +572,11 @@ header .navbar .link-btn {
     line-height: 30px;
     color: #afafaf;
     border-radius: 1px;
-    font-size: 12px;
+    font-size: 14px;
     -webkit-transition: .5s;
     transition: .5s;
 }
+.fa{font-size: 20px !important;}
 .room-list-item .room-services i:hover,
 .room-list-item .room-services span:hover {
     cursor: pointer;
@@ -597,22 +604,28 @@ header .navbar .link-btn {
     color: white;
     font-size: 70px;
     text-shadow: 4px 2px #1b1a1ada;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Cinzel', serif;
     font-weight: 800;
 }
 .sldh1-5 {
     color: white;
     font-size: 18px;
     text-shadow: 4px 2px #1b1a1ada;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Cinzel', serif;
 }
 .sldh2 {
     color: white;
     font-size: 20px;
     text-shadow: 4px 2px #1b1a1ada;
-    font-family: Marcellus, serif;
+    font-family: 'Cinzel', serif;
     font-weight: 800;
 }
+.thumb img {
+    transition: transform 0.5s ease;
+  }
+  .thumb:hover img {
+    transform: scale(1.3);
+  }
 /*Button*/
 .h-button {
     margin-right: 10px;
@@ -879,7 +892,10 @@ a:focus {
     .gallery-container {
         text-align: center;
     }
-    .lmdis{padding: 20px !important;text-align: center;}
+    .lmdis {
+        padding: 20px !important;
+        text-align: center;
+    }
 }
 @media only screen and (min-width: 992px) {
     header .navbar {
